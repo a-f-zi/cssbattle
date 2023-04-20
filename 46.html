@@ -1,0 +1,41 @@
+<div class="a">
+  <div class="b"></div>
+  <div class="c"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #293462;
+  }
+  .a {
+    width: 200px;
+    height: 200px;
+    background: #fff1c1;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    overflow: hidden;
+  }
+  .b {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 150px solid #fe5f55;
+    position: absolute;
+    top: 59px;
+    left: -9px;
+  }
+  .c {
+    width: 0;
+    height: 0;
+    border: 26px solid transparent;
+    border-top: 0;
+    border-bottom: 26px solid #fe5f55;
+    position: absolute;
+    left: 4px;
+    top: 129px;
+    -webkit-box-reflect: below -1px;
+  }
+</style>

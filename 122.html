@@ -1,0 +1,81 @@
+<div class="a">
+  <div class="b"></div>
+  <div class="b"></div>
+  <div class="c"></div>
+  <div></div>
+  <div class="c"></div>
+  <div class="c"></div>
+  <div class="b"></div>
+  <div class="b"></div>
+  <div></div>
+  <div class="c"></div>
+  <div class="d"></div>
+  <div class="c"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div class="e"></div>
+  <div class="d"></div>
+  <div class="d"></div>
+  <div class="b"></div>
+  <div class="e"></div>
+  <div class="e"></div>
+  <div class="e"></div>
+  <div class="d"></div>
+  <div class="e"></div>
+</div>
+<div class="f">
+  <div class="c"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #173889;
+  }
+  .a {
+    width: 300px;
+    height: 198px;
+    position: absolute;
+    left: 50px;
+    top: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+  .a > div,
+  .f > div {
+    width: 45px;
+    height: 45px;
+    background: #ee4f63;
+    display: inline-block;
+  }
+  .a > .b {
+    background: #f8da37;
+  }
+  .a > .c,
+  .f > .c {
+    background: #173889;
+  }
+  .a > .d {
+    background: #b069f7;
+  }
+  .a > .e {
+    background: #2ce1ea;
+  }
+  .f {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 203px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+</style>

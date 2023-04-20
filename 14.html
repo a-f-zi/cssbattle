@@ -1,0 +1,40 @@
+<div class="t p1"></div>
+<div class="t p2"></div>
+<div class="t p3"></div>
+<div class="t p4"></div>
+<style>
+  body {
+    margin: 0;
+    background: #f2f2b6;
+  }
+  .t {
+    width: 0;
+    height: 0;
+    border: 75px solid transparent;
+    border-top: 0;
+    border-bottom: 130px solid #ff6d00;
+    position: absolute;
+  }
+  .t:nth-child(odd) {
+    border-bottom: 130px solid #fd4602;
+  }
+  .p1 {
+    transform: rotate(180deg);
+    top: 85px;
+    left: 80px;
+  }
+  .p2 {
+    transform: rotate(180deg);
+    top: 85px;
+    left: 60px;
+  }
+  .p3 {
+    left: 170px;
+    top: 85px;
+    z-index: 1;
+  }
+  .p4 {
+    left: 190px;
+    top: 85px;
+  }
+</style>

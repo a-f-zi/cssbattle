@@ -1,0 +1,53 @@
+<div class="m">
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c"></div>
+  <div class="d"></div>
+  <div class="e"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #293462;
+  }
+  .m {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  }
+  .a {
+    width: 200px;
+    height: 200px;
+    background: #fff1c1;
+    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+  }
+  .b {
+    width: 100px;
+    height: 150px;
+    background: #fe5f55;
+    grid-row: 1 / 4;
+    grid-column: 5 / 6;
+  }
+  .c {
+    width: 100px;
+    height: 50px;
+    background: #a64942;
+    grid-row: 4 / 5;
+    grid-column: 5 / 6;
+  }
+  .d {
+    width: 150px;
+    height: 100px;
+    background: #fe5f55;
+    grid-row: 5 / 6;
+    grid-column: 1 / 4;
+  }
+  .e {
+    width: 50px;
+    height: 100px;
+    background: #a64942;
+    grid-row: 5 / 6;
+    grid-column: 4 / 5;
+  }
+</style>

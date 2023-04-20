@@ -1,0 +1,130 @@
+<div class="a">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a b">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a c">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a d">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a e">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a c e f">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="a d e g">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="h"></div>
+<div class="h i"></div>
+<div class="h j"></div>
+<div class="k"></div>
+<style>
+  body {
+    margin: 0;
+    background: #071945;
+  }
+  .a {
+    width: 70px;
+    height: 20px;
+    background: #dd6b4d;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .a > div {
+    width: 10px;
+    height: 10px;
+    background: #b069f7;
+  }
+  .a > div:nth-of-type(2),
+  .a > div:nth-of-type(5) {
+    width: 50px;
+  }
+  .a > div:nth-of-type(1),
+  .a > div:nth-of-type(3),
+  .a > div:nth-of-type(5) {
+    background: #071945;
+  }
+  .b {
+    left: 120px;
+  }
+  .c {
+    left: 210px;
+  }
+  .d {
+    left: 300px;
+  }
+  .e > div {
+    background: #f8da37;
+  }
+  .e {
+    top: 90px;
+  }
+  .h {
+    width: 10px;
+    height: 10px;
+    background: #2ce1ea;
+    position: absolute;
+    left: 195px;
+    top: 210px;
+  }
+  .i {
+    top: 240px;
+  }
+  .j {
+    top: 270px;
+    height: 14px;
+  }
+  .k {
+    width: 0;
+    height: 0;
+    border: 26px solid transparent;
+    border-top: 0;
+    border-bottom: 26px solid #2ce1ea;
+    position: absolute;
+    left: 174px;
+    top: 279px;
+  }
+</style>

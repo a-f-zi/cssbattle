@@ -1,0 +1,47 @@
+<div class="circle"></div>
+<div class="box"></div>
+<div class="trapezoid"></div>
+<div class="trapezoid mid"></div>
+<div class="trapezoid bot"></div>
+<style>
+  body {
+    margin: 0;
+    background: #1a4341;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: #998235;
+    border-radius: 200px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+  }
+  .box {
+    width: 200px;
+    height: 140px;
+    background: #1a4341;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+  }
+  .trapezoid {
+    width: 236px;
+    height: 20px;
+    background: #f3ac3c;
+    transform: perspective(12px) rotateX(2deg);
+    position: absolute;
+    left: 82px;
+    top: 100px;
+  }
+  .mid {
+    top: 140px;
+    left: 75px;
+    transform: none;
+    width: 250px;
+  }
+  .bot {
+    top: 180px;
+    transform: perspective(12px) rotateX(-2deg);
+  }
+</style>

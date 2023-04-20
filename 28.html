@@ -1,0 +1,44 @@
+<div class="m">
+  <div>
+    <div class="a"></div>
+    <div class="a b d"></div>
+    <div class="a b"></div>
+    <div class="a d"></div>
+  </div>
+  <div>
+    <div class="a c d"></div>
+    <div class="a"></div>
+    <div class="a d"></div>
+    <div class="a c"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #1a4341;
+  }
+  .m {
+    display: flex;
+    position: relative;
+    left: 70px;
+    top: 90px;
+    flex-direction: column;
+  }
+  .a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #998235;
+    display: inline-block;
+    margin: 0px 16px 16px 0px;
+  }
+  .b {
+    border-radius: 50% 50% 0 0;
+  }
+  .c {
+    border-radius: 0 0 50% 50%;
+  }
+  .d {
+    background: #f3ac3c;
+  }
+</style>

@@ -1,0 +1,48 @@
+<section class="c">
+  <div class="a"></div>
+  <div class="a b"></div>
+</section>
+<secion class="c d">
+  <div class="a"></div>
+  <div class="a b"></div>
+</secion>
+<style>
+  body {
+    margin: 0;
+    background: #222;
+  }
+  .a {
+    width: 100px;
+    height: 30px;
+    background: #f2994a;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 120px;
+    top: 93px;
+    border-top-left-radius: 10px;
+  }
+  .b {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
+    width: 80px;
+    top: 135px;
+    left: 123px;
+    transform: rotate(45deg);
+  }
+  .d div {
+    background: #2d9cdb;
+  }
+  .d .a {
+    border-radius: 0;
+    top: 176px;
+    left: 178px;
+    border-bottom-right-radius: 10px;
+  }
+  .d .b {
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    left: 195px;
+    top: 133px;
+  }
+</style>

@@ -1,0 +1,30 @@
+<p></p>
+<style>
+  * {
+    background: #1a4341;
+    margin: 0;
+  }
+  p {
+    width: 400px;
+    height: 200px;
+    background: repeating-linear-gradient(
+      #f3ac3c,
+      #f3ac3c 20px,
+      #1a4341 20px,
+      #1a4341 40px
+    );
+    margin-top: 60px;
+    position: relative;
+  }
+  p::after {
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 280px;
+    background: #1a4341;
+    border-radius: 50%;
+    right: -105px;
+    top: -50px;
+    -webkit-box-reflect: left 100px;
+  }
+</style>

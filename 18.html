@@ -1,0 +1,43 @@
+<main>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div class="a b"></div>
+  <div id="c"></div>
+  <div class="b"></div>
+  <div id="c"></div>
+  <div class="a"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</main>
+<style>
+  body {
+    margin: 0;
+    background: #5c434c;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    background: #f09462;
+    margin: 10px 0 0 16px;
+    border-top-left-radius: 100%;
+    display: inline-block;
+  }
+  div:first-child {
+    margin-left: 10px;
+  }
+  .a {
+    margin: 16px 0 0 10px;
+  }
+  div:nth-child(even) {
+    background: #f5d6b4;
+  }
+  .b {
+    background: #f5d6b4;
+  }
+  #c {
+    background: #f09462;
+  }
+</style>

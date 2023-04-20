@@ -1,0 +1,45 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="c d"></div>
+<style>
+  body {
+    margin: 0;
+    background: #0b2429;
+  }
+  .a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 80px;
+    border: 45px solid #f3ac3c;
+  }
+  .b {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #0b2429;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border: 10px solid #998235;
+    z-index: -1;
+  }
+  .c {
+    position: absolute;
+    top: 116px;
+    left: 25px;
+    width: 136px;
+    height: 68px;
+    background: #998235;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    transform: rotate(-90deg);
+    z-index: -2;
+  }
+  .d {
+    transform: rotate(90deg);
+    left: 239px;
+  }
+</style>

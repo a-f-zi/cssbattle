@@ -1,0 +1,41 @@
+<div class="a">
+  <div class="c"></div>
+  <div class="c"></div>
+  <div class="c"></div>
+  <div class="c"></div>
+</div>
+<div class="b"></div>
+<style>
+  body {
+    margin: 0;
+    background: #d25b70;
+  }
+  .a {
+    width: 400px;
+    height: 150px;
+    background: #6cb3a9;
+    position: absolute;
+    top: 150px;
+  }
+  .b {
+    width: 200px;
+    height: 200px;
+    background: #f6df96;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+  }
+  .c {
+    width: 200px;
+    height: 15px;
+    background: #6cb3a9;
+    z-index: 1;
+    position: relative;
+    left: 100px;
+    margin-top: 10px;
+  }
+  .c:nth-of-type(1) {
+    margin-top: 0;
+  }
+</style>

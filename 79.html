@@ -1,0 +1,76 @@
+<div class="a">
+  <div class="b"></div>
+</div>
+<div class="c"></div>
+<div class="c d"></div>
+<div class="c e"></div>
+<div class="c f"></div>
+<div class="c g"></div>
+<div class="h"></div>
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+  }
+  .a {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 10px #243d83;
+    position: absolute;
+    left: 115px;
+    top: 75px;
+    overflow: hidden;
+  }
+  .b {
+    width: 100px;
+    height: 100px;
+    background: #6592cf;
+    border-radius: 50%;
+    border: 10px solid #243d83;
+    position: absolute;
+    left: 25px;
+    top: 125px;
+  }
+  .c {
+    width: 30px;
+    height: 30px;
+    background: #6592cf;
+    border: 10px solid #243d83;
+    border-radius: 50%;
+    position: absolute;
+    left: 175px;
+    top: 55px;
+  }
+  .c::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #243d83;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .d {
+    transform: translate(70px, 40px);
+  }
+  .e {
+    transform: translate(70px, 110px);
+  }
+  .f {
+    transform: translate(-70px, 40px);
+  }
+  .g {
+    transform: translate(-70px, 110px);
+  }
+  .h {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #6592cf;
+    position: absolute;
+    left: 150px;
+    top: 210px;
+  }
+</style>

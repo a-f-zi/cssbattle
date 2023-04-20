@@ -1,0 +1,39 @@
+<div class="a">
+  <div class="b"></div>
+  <div class="b"></div>
+  <div class="b"></div>
+  <div class="b"></div>
+</div>
+<div class="c"></div>
+<style>
+  body {
+    margin: 0;
+    background: #ac474b;
+  }
+  .a {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .b {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+  }
+  .c {
+    width: 20px;
+    height: 20px;
+    border-radius: 50% 50% 0 50%;
+    border: 10px solid #ffffff;
+    position: absolute;
+    left: 165px;
+    top: 50px;
+    -webkit-box-reflect: right -10px;
+  }
+</style>

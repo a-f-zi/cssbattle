@@ -1,0 +1,55 @@
+<div class="a">
+  <div class="top"></div>
+  <div class="top"></div>
+  <div class="mid"></div>
+  <div class="mid two"></div>
+  <div class="bot"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #293462;
+  }
+  .a {
+    width: 200px;
+    height: 200px;
+    background: #fe5f55;
+    border-radius: 100px 100px 50px 50px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    overflow: hidden;
+  }
+  .top {
+    width: 100px;
+    height: 100px;
+    background: #fff1c1;
+    border-radius: 50%;
+    position: absolute;
+    top: -50;
+  }
+  .top:nth-of-type(2) {
+    left: 100px;
+  }
+  .mid {
+    width: 60px;
+    height: 60px;
+    background: #fff1c1;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+  }
+  .two {
+    left: 120px;
+  }
+  .bot {
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    background: #fff1c1;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+  }
+</style>

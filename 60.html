@@ -1,0 +1,45 @@
+<div class="a"></div>
+<div class="a b"></div>
+<div class="a c"></div>
+<div class="a d"></div>
+<div class="e"></div>
+<div class="a f"></div>
+<div class="a f d"></div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  .a {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 0;
+    border-top: 50px solid #4f77ff;
+    position: absolute;
+    left: 100px;
+    top: 175px;
+  }
+  .b {
+    left: 200px;
+  }
+  .c {
+    top: 75px;
+  }
+  .d {
+    left: 200px;
+    top: 75px;
+  }
+  .e {
+    background: #4f77ff;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 125px;
+  }
+  .f {
+    top: 125px;
+    border-top: 50px solid #191919;
+  }
+</style>

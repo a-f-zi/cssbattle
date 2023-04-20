@@ -1,0 +1,46 @@
+<div class="m">
+  <div class="a">
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+    <div id="e"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #f3ac3c;
+  }
+  .m {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .a {
+    width: 200px;
+    height: 200px;
+    background: #1a4341;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .a div {
+    width: 50%;
+    height: 50%;
+    background: #f3ac3c;
+  }
+  #b {
+    border-radius: 0 0 100px 0;
+  }
+  #c {
+    border-radius: 0 0 0 100px;
+  }
+  #d {
+    border-radius: 0 100px 0 0;
+  }
+  #e {
+    border-radius: 100px 0 0 0;
+  }
+</style>
